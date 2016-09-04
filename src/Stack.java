@@ -3,7 +3,7 @@ public class Stack {// just a linked list with stack's methods! The clear advant
 	
 	// here are the stack's particular methods
 	
-	private Node top () {return this.head;}
+	public Node top () {return this.head;}
 	
 	public int peek () {
 		return this.top().getData();
